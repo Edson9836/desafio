@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a exibição para o dispositivo do usuário -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | QR code component</title>
+</head>
+<body>
+
+  <div class="container">
+    <a href="https://www.frontendmentor.io?ref=challenge">
+      <img src="image-qr-code.png" alt="QR Code para Frontend Mentor">
+    </a>
+    <p>Improve your front-end skills by building projects. Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+
+
+  <div class="attribution">
+    Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/users/Edson9836/projects/3/views/1">Edson Isidoro</a>.
+  </div>
+  </div>
+
+</body>
+</html>
+<style type="text/css" media="all">
+  /* Importando a fonte Outfit do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de corpo */
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%); /* Cor Slate 900 */
+    background-color: hsl(212, 45%, 89%); /* Cor Slate 300 */
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: hsl(0, 0%, 100%); /* Cor White */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 320px;
+    margin: 20px;
+}
+
+/* Estilos para imagens */
+img {
+    width: 100%;
+    max-width: 255px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para parágrafos */
+p {
+    margin-bottom: 15px;
+    color: hsl(216, 15%, 48%); /* Cor Slate 500 */
+}
+
+/* Estilos para links */
+a {
+    color: hsl(218, 44%, 22%); /* Cor Slate 900 */
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(216, 15%, 48%); /* Cor Slate 500 */
+    text-decoration: underline;
+}
+
+/* Estilo de atribuição */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Layout responsivo */
+@media (min-width: 375px) and (max-width: 767px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 30%;
+    }
+}
+</style>
